@@ -57,6 +57,9 @@ profile*
 *clinic*
 *flamegraph*
 
+# tap
+.tap
+
 #env
 .env
 
