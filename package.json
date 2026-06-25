@@ -14,7 +14,8 @@
     "lint": "standard",
     "lint:fix": "standard --fix",
     "mongo:start": "docker run -d -p 27017:27017 --rm --name fastify-mongo mongo:7",
-    "mongo:stop": "docker container stop fastify-mongo"
+    "mongo:stop": "docker container stop fastify-mongo",
+    "inngest:dev": "inngest-cli dev"
   },
   "keywords": [],
   "author": "",
@@ -33,6 +34,7 @@
     "inngest": "^4.11.0"
   },
   "devDependencies": {
+    "inngest-cli": "^1.33.0",
     "standard": "^17.1.2",
     "tap": "^21.7.4"
   }
