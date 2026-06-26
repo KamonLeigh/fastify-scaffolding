@@ -1,18 +1,33 @@
 {
-    "type": "object",
-    "$id": "schema:dotenv",
-    "required": ["MONGO_URL"],
-    "properties": {
-        "NODE_ENV": {
-            "type": "string",
-            "default": "development"
-        },
-        "PORT": {
-            "type": "integer",
-            "default": 3000
-        },
-        "MONGO_URL": {
-            "type": "string"
-        }
+  "type": "object",
+  "$id": "schema:dotenv",
+  "required": ["MONGO_URL"],
+  "properties": {
+    "NODE_ENV": {
+      "type": "string",
+      "default": "development"
+    },
+    "PORT": {
+      "type": "integer",
+      "default": 3000
+    },
+    "MONGO_URL": {
+      "type": "string"
+    },
+    "SENTRY_DSN": {
+      "type": "string"
+    },
+    "INNGEST_EVENT_KEY": {
+      "type": "string"
+    },
+    "REDIS_URL": {
+      "type": "string"
+    },
+    "REDIS_PORT": {
+      "type": "integer"
+    },
+    "INNGEST_DEV": {
+      "type": "integer"
     }
+  }
 }
